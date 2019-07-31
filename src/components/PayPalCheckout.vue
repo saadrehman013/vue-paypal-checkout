@@ -36,15 +36,16 @@ export default {
       const payment = {
         transactions: [transaction],
       };
-
-      return paypal.rest.payment.create(
+      
+      let createOrder = paypal.rest.payment.create(
         this.env,
         this.client,
         Object.assign({ payment }, assignTo(vue, propTypes.PAYMENT)),
       );
       vue.onCreate(transaction);
+      return createOrder;
     },
-    onCreate() {
+    onCreate(data) {
       const vue = this;
       vue.$emit('payment-created', data);
     },
