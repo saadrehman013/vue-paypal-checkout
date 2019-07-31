@@ -42,6 +42,11 @@ export default {
         this.client,
         Object.assign({ payment }, assignTo(vue, propTypes.PAYMENT)),
       );
+      vue.onCreate(transaction);
+    },
+    onCreate() {
+      const vue = this;
+      vue.$emit('payment-created', data);
     },
     onAuthorize(data, actions) {
       const vue = this;
@@ -76,7 +81,10 @@ export default {
 
       // Display a "Pay Now" button rather than a "Continue" button
       commit: vue.commit,
-
+      
+      // Pass a function to be called when the customer creates the payment
+      onCreate: vue.onCreate,  
+      
       // Pass a function to be called when the customer completes the payment
       onAuthorize: vue.onAuthorize,
 
