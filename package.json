@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "dist/vue-paypal-checkout-2.common.js",
   "module": "dist/vue-paypal-checkout-2.esm.js",
-  "unpkg": "dist/vue-paypal-checkout-2.min.js",
+  "unpkg": "dist/vue-paypal-checkout.min.js",
   "author": "Saad Sami <saadrehman013@gmail.com>",
   "license": "MIT",
   "repository": {
