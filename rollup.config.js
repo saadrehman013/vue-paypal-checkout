@@ -22,8 +22,9 @@ const config = {
     { format: 'cjs', file: `dist/${pack.name}.common.js` },
   ],
   plugins: [
+    commonjs(),
     vue(vueConfig),
-    babel(babelConfig),
+    babel(babelConfig)
   ],
   cache,
 };

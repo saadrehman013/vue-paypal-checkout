@@ -1,7 +1,7 @@
 {
   "name": "vue-paypal-checkout-2",
   "description": "A simple Vue.js wrapper component for paypal-checkout",
-  "version": "3.2.0",
+  "version": "1.0.0",
   "main": "dist/vue-paypal-checkout.common.js",
   "module": "dist/vue-paypal-checkout.esm.js",
   "unpkg": "dist/vue-paypal-checkout.min.js",
@@ -12,6 +12,7 @@
     "type": "git"
   },
   "scripts": {
+    "dev": "npm start",
     "build": "rm -rf dist/ && rollup -c",
     "lint": "eslint --ext .js,.vue src test",
     "test": "eslint --ext .js,.vue src test && jest --config test/unit/jest.conf.js",
