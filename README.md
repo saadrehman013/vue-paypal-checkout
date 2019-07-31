@@ -1,4 +1,4 @@
-# vue-paypal-checkout
+# vue-paypal-checkout-2
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/khoanguyen96/vue-paypal-checkout.svg)](https://greenkeeper.io/)
 
