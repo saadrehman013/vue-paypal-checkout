@@ -1,5 +1,5 @@
 {
-  "name": "vue-paypal-checkout",
+  "name": "vue-paypal-checkout-2",
   "description": "A simple Vue.js wrapper component for paypal-checkout",
   "version": "3.2.0",
   "main": "dist/vue-paypal-checkout.common.js",
