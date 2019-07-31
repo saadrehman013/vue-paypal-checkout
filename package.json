@@ -2,13 +2,13 @@
   "name": "vue-paypal-checkout-2",
   "description": "A simple Vue.js wrapper component for paypal-checkout",
   "version": "1.0.0",
-  "main": "dist/vue-paypal-checkout.common.js",
-  "module": "dist/vue-paypal-checkout.esm.js",
-  "unpkg": "dist/vue-paypal-checkout.min.js",
+  "main": "dist/vue-paypal-checkout-2.common.js",
+  "module": "dist/vue-paypal-checkout-2.esm.js",
+  "unpkg": "dist/vue-paypal-checkout-2.min.js",
   "author": "Saad Sami <saadrehman013@gmail.com>",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/saadrehman013/vue-paypal-checkout.git",
+    "url": "https://github.com/saadrehman013/vue-paypal-checkout-2.git",
     "type": "git"
   },
   "scripts": {
