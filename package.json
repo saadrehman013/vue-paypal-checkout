@@ -5,7 +5,7 @@
   "main": "dist/vue-paypal-checkout.common.js",
   "module": "dist/vue-paypal-checkout.esm.js",
   "unpkg": "dist/vue-paypal-checkout.min.js",
-  "author": "Khoa Nguyen <khoa.tan.nguyen.96@gmail.com>",
+  "author": "Saad Sami <saadrehman013@gmail.com>",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/saadrehman013/vue-paypal-checkout.git",
