@@ -9,7 +9,7 @@
 [![David](https://img.shields.io/david/khoanguyen96/vue-paypal-checkout.svg)](https://david-dm.org/khoanguyen96/vue-paypal-checkout)
 
 ## CHANGES
-Added an event-listener for createOrder.
+Added an event-listener for createOrder as 'payment-created'.
 
 ## Usage with Vue itself
 Simply include Vue and `vue-paypal-checkout` into your html file (using unpkg cdn)
